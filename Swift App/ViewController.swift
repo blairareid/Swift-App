@@ -14,18 +14,14 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var theLabel: UILabel!
     
-    var click = 0
+    
+    @IBOutlet weak var text1: UITextField!
+    
+    @IBOutlet weak var text2: UITextField!
     
     @IBAction func buttonTapped(_ sender: Any) {
-        if click >=  7  {
-            theLabel.text = "> 5"
-            click = 1
-        }
-        else{
-            click = click + 1
-            print (click)
-        }
-        
+       
+       theLabel.text = "Answer is \(Double(text1.text!)! + Double(text2.text!)!)"
         
     }
     override func viewDidLoad() {
