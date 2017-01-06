@@ -3,7 +3,7 @@
 //  Swift App
 //
 //  Created by Blair Reid on 2017-01-05.
-//  Copyright © 2017 Blair Reid. All rights reserved.
+//  Copyright © 2017 Blair Reid. All rights reserved...
 //
 
 import UIKit
@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     var click = 0
     
     @IBAction func buttonTapped(_ sender: Any) {
-        if click >=  5  {
+        if click >=  7  {
             theLabel.text = "> 5"
             click = 1
         }
